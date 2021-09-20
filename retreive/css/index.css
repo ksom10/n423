@@ -1,0 +1,17 @@
+.index {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: blueviolet;
+}
+.index #form {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}

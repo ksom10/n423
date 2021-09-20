@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <div class="links">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PRODUCTS</a>
+            <a href="#">CONTACT</a>
+            <button id="login" href="#">Login</button>
+            <button id="signup" href="#">SignUp</button>
+        </div>
+    </nav>
+    <div class="index">
+        <div id="form">
+            <div class="containerOne">
+                <label for="zipCity">Zip Code or City Name</label><br>
+                <input id="cityZip" type="text" /> <br />
+                <input id="submit" type="submit" value="Get Weather" />
+            </div>
+            
+            <div id="containerTwo">
+                <div id="wImg"></div>
+                <div id="wInfo"></div>
+                <div id="wTime"></div>
+                <div id="wData"></div>
+                <div id="exInfo">
+                    <div id="wMore"></div>
+                    <div id="wHumid"></div>
+                    <div id="wWind"></div>
+                </div>
+                
+            </div>
+
+            <div id="dayCount"></div>
+            
+        </div>
+    </div>
+    
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
