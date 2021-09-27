@@ -1,0 +1,134 @@
+.content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+.content .form {
+  width: 500px;
+  height: 100%;
+  border: solid 1px black;
+  border-radius: 5%;
+  background-color: #006298;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content .form .header {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.content .form .header h1 {
+  font-size: 40px;
+  color: white;
+}
+.content .form .longInput {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content .form .longInput label {
+  width: 200px;
+  color: white;
+  font-size: 25px;
+}
+.content .form .longInput input {
+  width: 200px;
+  height: 20px;
+}
+.content .form .longInput textarea {
+  width: 200px;
+}
+.content .form #submit {
+  width: 100px;
+  border-radius: 8px;
+  height: 30px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.content #info {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content #info #show {
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  background-color: #e7e7e7;
+  cursor: pointer;
+  font-size: 20px;
+}
+.content #info #display {
+  margin-top: 20px;
+  display: none;
+  border: solid 2px black;
+  border-radius: 5%;
+  -webkit-box-shadow: gray 5px 5px;
+          box-shadow: gray 5px 5px;
+}
+.content #info #display .studentCont {
+  display: none;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.content #info #display .studentCont p {
+  font-size: 20px;
+  margin-left: 15px;
+}

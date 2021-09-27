@@ -1,0 +1,120 @@
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    //background-color: #990000;
+    
+
+   
+
+        .form{
+        width: 500px;
+        height: 100%;
+        border: solid 1px black;
+        border-radius: 5%;
+        background-color: #006298;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ 
+
+        .header{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+            h1{
+                font-size: 40px;
+                color: white;
+        
+            }
+        }
+        
+        
+
+        .longInput{
+            width: 400px;
+            display: flex;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            align-items: center;
+            //justify-content: space-evenly;
+
+            label{
+                width: 200px;
+                color: white;
+                font-size: 25px;
+            // margin-right: 20px;
+            }
+
+            input{
+                width: 200px;
+                height: 20px;
+                //margin-left: 20px;
+            }
+
+            textarea{
+                width: 200px;
+            }
+        }
+
+        #submit{
+            width: 100px;
+            border-radius: 8px;
+            height: 30px;
+            background-color: #e7e7e7;
+            cursor: pointer;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+
+        
+    }
+    #info {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        #show{
+            margin-top: 30px;
+            border-radius: 8px;
+            width: 200px;
+            height: 50px;
+            background-color: #e7e7e7;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        #display{
+            margin-top: 20px;
+            display: none;
+            border: solid 2px black;
+            border-radius: 5%;
+            box-shadow: gray 5px 5px;
+            //background-color: #006298;
+
+
+            .studentCont{
+                display: none;
+                margin-right: 50px;
+                display: flex;
+                flex-direction: row;
+
+                p{
+                    font-size: 20px;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
